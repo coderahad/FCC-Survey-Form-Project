@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>CodepenFcc: Survey Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+	body{
+		background-color: #a9d7d1;
+		 
+	}
+	
+	.main{
+		
+		margin-left: 20%;
+	}
+	#title{
+		margin-left: 33%;
+	}
+	#description{
+	}
+	#survey-form{
+	}
+	#name{
+	}
+	#emai{
+	}
+	
+</style>
+
+
+</head>
+
+<body>
+	<h1 id="title"> Survey Form</h1><br>
+	<div class="main">
+		<p>Let us know how we can improve freeCodeCamp</p>
+		<form ="survey-form">
+			<label for="name" id="name-label">Name:</label>
+			<input id="name" type="text" placeholder="Enter name"><br>
+			<label for="email" id="email-label">Email:</label>
+			<input id="email" type="text" placeholder="Enter email"><br>
+			<label for="number" id="number-label">Age:</label>
+			<input id="number" type="text" placeholder="Age"><br>
+			
+			<label for="dropdown"> Which option best describes your current role: </label>
+				<select id="dropdown">
+					<option value="student"> Student</option>
+					<option value="full-time-job"> Full time job</option>
+					<option value="full-time-lerner"> Full time learner</option>
+					<option value="prefer-not-to-say">Prefer not to say</option>
+					<option value="other"> Other</option>
+				</select><br>
+			<label for="radio">How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+			<label id="radio" for="definitely"> 
+			<input id="definitely" type="radio" name="recommend"> Definitely</label><br>
+			<label for="maybe"> 
+			<input id="maybe" type="radio" name="recommend"> Maybe</label><br>
+			<label for="not-sure"> 
+			<input id="not-sure" type="radio" name="recommend"> Not sure</label><br>
+			
+			<label for="dropdown2"> What do you like most in FCC: </label>
+				<select id="dropdown2">
+					<option value="challenges"> Challenges</option>
+					<option value="projects"> Projects</option>
+					<option value="community"> Community</option>
+					<option value="open-source"> Open source</option>
+					</select><br>
+					
+			<label> Things that should be improved in the future(Check all that apply):</label><br>
+			<label for="front-end-Projects">	
+			<input id="front-end-Projects" type="checkbox" value="front-end-Projects"> Front-end Projects</label><br>
+			<label for="back-end-Projects">	
+			<input id="back-end-Projects" type="checkbox" value="back-end-Projects"> Back-end Projects</label><br>
+			<label for="Data-Visualization">
+			<input id="Data-Visualization" type="checkbox" value="Data-Visualization">	Data Visualization</label><br>
+			<label for="challenges">
+			<input id="challenges" type="checkbox" value="challenges">	Challenges</label><br>
+			<label for="Open-Source-Community">
+			<input id="Open-Source-Community" type="checkbox" value="Open-Source-Community">	Open Source Community</label><br>
+			<label for="Gitter-help-rooms">
+			<input id="Gitter-help-rooms" type="checkbox" value="Gitter-help-rooms">	Gitter help rooms</label><br>
+			<label for="videos">
+			<input id="videos" type="checkbox" value="videos">	Videos</label><br>
+			<label for="City-Meetups">
+			<input id="City-Meetups" type="checkbox" value="City-Meetups">	City Meetups</label><br>
+			<label for="wiki">
+			<input id="wiki" type="checkbox" value="wiki">	Wiki</label><br>
+			<label for="forum">
+			<input id="forum" type="checkbox" value="forum">	Forum</label><br>
+			<label for="Additional-Courses">
+			<input id="Additional-Courses" type="checkbox" value="Additional-Courses">	Additional Courses</label><br>
+		</form>
+	
+	</div>
+
+</body>
+</html>
