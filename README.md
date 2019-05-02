@@ -1,1 +1,1 @@
-This is a project on creating a survey form. This project is a part of "responsive web design certification" of Free Code Camp. Edited
+This is a project on creating a survey form. This project is a part of "responsive web design certification" of Free Code Camp. This is free online programming course.
